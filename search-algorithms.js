@@ -39,10 +39,10 @@ console.log('In Order traversal');
 inOrderTrav(travBST());
 
 const preOrderTrav = (node) => {
-	// inorder(node)
+	// preOrder(node)
 	// if node == null then return
+	// visit(node);
 	// inorder(node.left)
-	// visit(node)
 	// inorder(node.right)
 	if (!node) {
 		return null;
@@ -57,11 +57,12 @@ console.log(' ');
 console.log('Pre Order traversal');
 preOrderTrav(travBST());
 const postOrderTrav = (node) => {
-	// inorder(node)
+	// post(node)
 	// if node == null then return
 	// inorder(node.left)
-	// visit(node)
 	// inorder(node.right)
+	// visit(node)
+
 	if (!node) {
 		return null;
 	}
