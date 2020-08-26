@@ -117,6 +117,7 @@ class BinarySearchTree {
 		return this.left._findMin();
 	}
 }
+module.exports = BinarySearchTree;
 const tree = () => {
 	const BST = new BinarySearchTree();
 	BST.insert(5, `five`);
